@@ -1,3 +1,3 @@
 # aplikasi_berita
 
-![Screenshot] (aplikasi_berita/screenshot.png)
+<img src="aplikasi_berita/screenshot.png" width="128"/>
