@@ -1,3 +1,3 @@
 # aplikasi_berita
 
-![Screenshot] (screenshot.png)
+![Screenshot] (aplikasi_berita/screenshot.png)
