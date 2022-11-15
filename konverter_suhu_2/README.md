@@ -1,6 +1,6 @@
 # konverter_suhu_2
 
-<img src="screenshots.png">
+<img src="screenshot.png">
 
 ## Getting Started
 
