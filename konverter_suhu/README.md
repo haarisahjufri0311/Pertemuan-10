@@ -1,6 +1,6 @@
 # konverter_suhu
 
-<img width="252" alt="13" src="https://user-images.githubusercontent.com/43262815/135579360-ee415438-19bc-4095-8cab-625510326d6f.png">
+<img src="screenshots.png">
 
 
 ## Getting Started
