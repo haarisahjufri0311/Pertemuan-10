@@ -13,15 +13,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        // This is the theme of your application.
-        //
-        // Try running your application with "flutter run". You'll see the
-        // application has a blue toolbar. Then, without quitting the app, try
-        // changing the primarySwatch below to Colors.green and then invoke
-        // "hot reload" (press "r" in the console where you ran "flutter run",
-        // or simply save your changes to "hot reload" in a Flutter IDE).
-        // Notice that the counter didn't reset back to zero; the application
-        // is not restarted.
         primarySwatch: Colors.blue,
       ),
       home: const MyHomePage(title: 'Aplikasi Berita'),
@@ -42,10 +33,10 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-            appBar: AppBar(
+        appBar: AppBar(
           title: Text(widget.title),
         ),
-        body:  SingleChildScrollView(
+        body: SingleChildScrollView(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -78,16 +69,16 @@ class _MyHomePageState extends State<MyHomePage> {
                     Container(
                       height: 200,
                       alignment: Alignment.center,
-                      child: Image.network("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/SEVENTEEN%28%EC%84%B8%EB%B8%90%ED%8B%B4%29_-_%27Ready_to_love%27_%EC%9D%91%EC%9B%90%EB%B2%95_3m_25s.jpg/1024px-SEVENTEEN%28%EC%84%B8%EB%B8%90%ED%8B%B4%29_-_%27Ready_to_love%27_%EC%9D%91%EC%9B%90%EB%B2%95_3m_25s.jpg"),
+                      child: Image.network(
+                          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/SEVENTEEN%28%EC%84%B8%EB%B8%90%ED%8B%B4%29_-_%27Ready_to_love%27_%EC%9D%91%EC%9B%90%EB%B2%95_3m_25s.jpg/1024px-SEVENTEEN%28%EC%84%B8%EB%B8%90%ED%8B%B4%29_-_%27Ready_to_love%27_%EC%9D%91%EC%9B%90%EB%B2%95_3m_25s.jpg"),
                     ),
-
                     Container(
                       padding: const EdgeInsets.fromLTRB(0, 10, 0, 10),
                       child: const Text(
                         "Grup Idol SEVENTEEN Kembali Mengadakan Konser Ke-3 di Penghujung Tahun",
                         textAlign: TextAlign.center,
-                        style:
-                        TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                        style: TextStyle(
+                            fontSize: 20, fontWeight: FontWeight.bold),
                       ),
                     ),
                   ],
@@ -104,7 +95,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     Row(
                       children: [
                         Expanded(
-                          child: Image.network("https://pict.sindonews.net/dyn/732/pena/news/2022/09/01/187/872805/lebih-dikenal-sebagai-aktor-iqbaal-ramadhan-tak-pernah-tinggalkan-dunia-musik-ztf.jpg"),
+                          child: Image.network(
+                              "https://pict.sindonews.net/dyn/732/pena/news/2022/09/01/187/872805/lebih-dikenal-sebagai-aktor-iqbaal-ramadhan-tak-pernah-tinggalkan-dunia-musik-ztf.jpg"),
                         ),
                         Expanded(
                           child: Container(
@@ -139,7 +131,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     Row(
                       children: [
                         Expanded(
-                          child: Image.network("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/SEVENTEEN%28%EC%84%B8%EB%B8%90%ED%8B%B4%29_-_%27Ready_to_love%27_%EC%9D%91%EC%9B%90%EB%B2%95_3m_25s.jpg/1024px-SEVENTEEN%28%EC%84%B8%EB%B8%90%ED%8B%B4%29_-_%27Ready_to_love%27_%EC%9D%91%EC%9B%90%EB%B2%95_3m_25s.jpg"),
+                          child: Image.network(
+                              "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/SEVENTEEN%28%EC%84%B8%EB%B8%90%ED%8B%B4%29_-_%27Ready_to_love%27_%EC%9D%91%EC%9B%90%EB%B2%95_3m_25s.jpg/1024px-SEVENTEEN%28%EC%84%B8%EB%B8%90%ED%8B%B4%29_-_%27Ready_to_love%27_%EC%9D%91%EC%9B%90%EB%B2%95_3m_25s.jpg"),
                         ),
                         Expanded(
                           child: Container(
@@ -174,7 +167,8 @@ class _MyHomePageState extends State<MyHomePage> {
                     Row(
                       children: [
                         Expanded(
-                          child: Image.network('https://pict.sindonews.net/dyn/732/pena/news/2022/09/01/187/872805/lebih-dikenal-sebagai-aktor-iqbaal-ramadhan-tak-pernah-tinggalkan-dunia-musik-ztf.jpg'),
+                          child: Image.network(
+                              'https://pict.sindonews.net/dyn/732/pena/news/2022/09/01/187/872805/lebih-dikenal-sebagai-aktor-iqbaal-ramadhan-tak-pernah-tinggalkan-dunia-musik-ztf.jpg'),
                         ),
                         Expanded(
                           child: Container(
