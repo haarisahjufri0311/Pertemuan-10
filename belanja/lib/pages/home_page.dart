@@ -6,14 +6,14 @@ import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
   final List<Item> items = [
-    Item(name: 'Sugar', price: 5000),
-    Item(name: 'Salt', price: 2000)
+    Item(name: 'Sugar', price: 5000, description: 'Gula putih bukan merah'),
+    Item(name: 'Salt', price: 2000, description: 'garam asin tidak manis')
   ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Belanja'),
+        title: Text('Daftar Belanja'),
       ),
       body: Container(
         margin: EdgeInsets.all(8),
